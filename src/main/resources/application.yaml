@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/qa-data
+    username: vladadmin
+    password: vLaDaDmIn
+
+logging:
+  level:
+    com.example.qaservice: DEBUG
+    org:
+      hibernate:
+        sql: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE

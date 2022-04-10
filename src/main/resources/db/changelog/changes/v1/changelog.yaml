@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_tables
+      author: creator
+      changes:
+        - sqlFile:
+            path: init.sql
+            relativeToChangelogFile: true
