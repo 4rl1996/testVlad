@@ -1,6 +1,5 @@
 package com.example.qaservice.exception;
 
-import liquibase.pro.packaged.R;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

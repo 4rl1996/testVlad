@@ -5,7 +5,6 @@ import com.example.qaservice.data.dto.AnswerResponseDto;
 import com.example.qaservice.data.dto.PollResponseDto;
 import com.example.qaservice.data.dto.QuestionResponseDto;
 import com.example.qaservice.data.entity.Answer;
-import com.example.qaservice.exception.QAException;
 import com.example.qaservice.mapper.Mapper;
 import com.example.qaservice.service.AnswerService;
 import com.example.qaservice.service.PollService;

@@ -2,7 +2,6 @@ package com.example.qaservice.exception;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -32,11 +31,6 @@ public class ExceptionHandler {
         }
         return ResponseEntity.badRequest().body(violationMessageList);
     }
-
-//    @org.springframework.web.bind.annotation.ExceptionHandler(value = HttpMessageNotReadableException.class)
-//    public ResponseEntity<?> validation() {
-//        return ResponseEntity.badRequest().body("Добавьте тело запроса!");
-//    }
 
     @org.springframework.web.bind.annotation.ExceptionHandler(value = Exception.class)
     public ResponseEntity<?> validation(Exception exception) {
