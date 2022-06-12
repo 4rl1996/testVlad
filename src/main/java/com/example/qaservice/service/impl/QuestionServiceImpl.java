@@ -3,7 +3,6 @@ package com.example.qaservice.service.impl;
 import com.example.qaservice.data.entity.Question;
 import com.example.qaservice.exception.QAException;
 import com.example.qaservice.repository.QuestionRepository;
-import com.example.qaservice.service.PollService;
 import com.example.qaservice.service.QuestionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -2,7 +2,6 @@ package com.example.qaservice.service;
 
 import com.example.qaservice.data.dto.QuestionResponseDto;
 import com.example.qaservice.data.entity.Poll;
-import com.example.qaservice.exception.QAException;
 
 import java.util.List;
 import java.util.Map;

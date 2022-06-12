@@ -14,7 +14,6 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Transient;
 
 @Entity
 @Data
@@ -35,13 +34,11 @@ public class Answer {
 
     private String answer;
 
-//    @Transient
 @Column(insertable = false, updatable = false)
 @Enumerated(EnumType.STRING)
     private QuestionType type;
 
     @JsonIgnore
-//    @Transient
     @Column(insertable = false, updatable = false)
     private String content;
 }
